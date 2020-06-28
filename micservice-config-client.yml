@@ -7,6 +7,7 @@ spring:
 ---
 server: 
   port: 8201
+  xxx: nnnn
 spring:
   profiles: dev
   application: 
@@ -18,10 +19,11 @@ eureka:
 ---
 server: 
   port: 8202 
+  xxx: zzzzz
 spring:
   profiles: test
   application: 
-    name: micservice-config-client2222
+    name: micservice-config-client
 eureka: 
   client: 
     service-url: 
